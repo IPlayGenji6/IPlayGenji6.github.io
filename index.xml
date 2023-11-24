@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HJH Hugo Site</title>
+    <link>https://IPlayGenji6.github.io/</link>
+    <description>Recent content on HJH Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Nov 2023 01:40:12 +0800</lastBuildDate>
+    <atom:link href="https://IPlayGenji6.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home</title>
+      <link>https://IPlayGenji6.github.io/posts/home/</link>
+      <pubDate>Sat, 25 Nov 2023 01:40:12 +0800</pubDate>
+      <guid>https://IPlayGenji6.github.io/posts/home/</guid>
+      <description>int main() { std::cout &amp;lt;&amp;lt; &amp;#34;fucking blog&amp;#34;; return 0; } </description>
+    </item>
+  </channel>
+</rss>

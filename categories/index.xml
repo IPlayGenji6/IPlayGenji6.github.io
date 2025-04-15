@@ -6,6 +6,7 @@
     <description>Recent content in Categories on HJH-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>hjh</copyright>
     <atom:link href="https://IPlayGenji6.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

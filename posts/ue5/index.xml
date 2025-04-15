@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HJH-Blog</title>
-    <link>https://IPlayGenji6.github.io/</link>
-    <description>Recent content on HJH-Blog</description>
+    <title>UE5 on HJH-Blog</title>
+    <link>https://IPlayGenji6.github.io/posts/ue5/</link>
+    <description>Recent content in UE5 on HJH-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>hjh</copyright>
     <lastBuildDate>Wed, 16 Apr 2025 00:52:26 +0800</lastBuildDate>
-    <atom:link href="https://IPlayGenji6.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://IPlayGenji6.github.io/posts/ue5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UE5_1</title>
       <link>https://IPlayGenji6.github.io/posts/ue5/output/</link>

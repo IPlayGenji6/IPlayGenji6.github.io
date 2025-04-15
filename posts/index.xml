@@ -6,27 +6,8 @@
     <description>Recent content in Posts on HJH-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>hjh</copyright>
     <lastBuildDate>Wed, 16 Apr 2025 00:52:26 +0800</lastBuildDate>
     <atom:link href="https://IPlayGenji6.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>UE5_note</title>
-      <link>https://IPlayGenji6.github.io/posts/ue5/post-1/</link>
-      <pubDate>Wed, 16 Apr 2025 00:52:26 +0800</pubDate>
-      <guid>https://IPlayGenji6.github.io/posts/ue5/post-1/</guid>
-      <description>UE5学习笔记 角色控制与基本交互 移动控制及相机跟随 战斗系统核心功能 攻击与受击逻辑 敌人 AI 简单实现 敌人类的基本结构
-敌人追踪玩家和简单反击
-战斗反馈与特效 血条、特效和简单 HUD 显示
-音效及视觉反馈设计
-程序 输出信息 输出日志，屏幕消息 UE_LOG(LogTemp, Warning, TEXT(&amp;#34;LOG Test: Begin from C++&amp;#34;)); if (GEngine) { GEngine-&amp;gt;AddOnScreenDebugMessage(1, 10.f, FColor::Cyan, FString(&amp;#34;c++ On Screen Message.&amp;#34;)); } 输出调试
-需要包含头文件 DrawDebugHelpers.h // 绘制调试球体 UWorld* World = GetWorld(); FVector Center = GetActorLocation(); if (World) { DrawDebugSphere(World, Center, 30.f, 24, FColor::Cyan, true, 10.f); } // 此外还有线，点 C++与蓝图交互 类成员变量参与反射系统
-属性文档 // 编辑器和蓝图均可编辑 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=&amp;#34;MyCategory&amp;#34;) MemberVariable; 类成员函数参与反射系统</description>
-    </item>
-    <item>
-      <title>Home</title>
-      <link>https://IPlayGenji6.github.io/posts/home/</link>
-      <pubDate>Sat, 25 Nov 2023 01:40:12 +0800</pubDate>
-      <guid>https://IPlayGenji6.github.io/posts/home/</guid>
-      <description>int main() { return 0; } </description>
-    </item>
   </channel>
 </rss>

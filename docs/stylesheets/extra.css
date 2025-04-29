@@ -1,0 +1,78 @@
+/* GitHub Light 代码高亮自定义（针对 Pygments）                               */
+.highlight {
+    --md-code-hl-string-color: #d18904;
+    --md-code-bg-color: #f7f7f7;
+    color: #24292e;           /* GitHub Light 默认文本色 */
+  }
+  
+  /* 注释（Comment） */
+  .highlight .c,
+  .highlight .c1,
+  .highlight .cm,
+  .highlight .cs {
+    color: #2cac28;
+  }
+
+  .highlight .cp {
+    color: #ff2eb9; /*宏*/
+  }
+  
+  /* 关键字（Keyword） */
+  .highlight .k,
+  .highlight .kd,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kt {
+    color: #cf222e; /* GitHub 红，用于突出关键字 */ 
+  }
+  
+  /* 操作符（Operator） */
+  .highlight .o {
+    color: #d73a49; /* GitHub 错误红，凸显运算符 */ 
+  }
+  
+  /* 类名（Name.Class） */
+  .highlight .nc {
+    color: #00c79c; /* GitHub 紫，用于类名 */ 
+  }
+  
+  /* 函数名（Name.Function） */
+  .highlight .nf {
+    color: #4f83be;
+  }
+  
+  /* 变量名（Name.Variable） */
+  .highlight .nv {
+    color: #7200cf; /* GitHub 橙，用于变量 */ 
+  }
+  
+  /* 字符串（Literal.String） */
+  .highlight .s,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .si,
+  .highlight .sx,
+  .highlight .sr {
+    color: #cf7c00;
+  }
+  
+  /* 数字（Literal.Number） */
+  .highlight .m,
+  .highlight .mi,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .il {
+    color: #005cc5; /* GitHub 深蓝，用于数字 */ 
+  }
+  
+  /* 标点符号（Punctuation） */
+  .highlight .p {
+    color: #24292e; /* 与默认文字相同 */ 
+  }
+  
+  /* ───────────────────────────────────────────────────────────────────────── */
+  

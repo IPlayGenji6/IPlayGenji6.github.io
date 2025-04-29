@@ -1,0 +1,46 @@
+site_name: HJH's site
+site_url: https://iplaygenji6.github.io/
+theme:
+  name: material
+  language: zh
+  logo: images/EMT_meat.jpeg
+  font:
+    text: Roboto
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+    - content.code.copy
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: 目录
+  # 警告（.md中通过!!!或者???触发）
+  - admonition
+  # 属性列表（允许使用特殊语法向几乎所有Markdown 内联和块级元素添加 HTML 属性和 CSS 类）
+  - attr_list
+  # 强调
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.details
+  # 超级围栏（允许代码块等互相嵌套）
+  - pymdownx.superfences 
+  # 智能符号
+  - pymdownx.smartsymbols
+  # 表情符号 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji # (1)!
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/IPlayGenji6
+
+copyright: Copyright &copy; 2024 - 2025 hjh
+
+extra_css:
+  - stylesheets/extra.css
